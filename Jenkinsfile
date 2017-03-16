@@ -9,3 +9,6 @@ node('master') {
       echo "Ready to promote."
   }
 }
+stage('approve') {
+    input "Deploy to prod?"
+}
