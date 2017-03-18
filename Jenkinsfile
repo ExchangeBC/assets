@@ -2,7 +2,7 @@ node('master') {
   stage('build') {
          echo "Building..."
 
-         openshiftBuild apiURL: '', authToken: '', bldCfg: 'assets', buildName: '', checkForTriggeredDeployments: 'false', commitID: '', namespace: 'oldshea', showBuildLogs: 'true', verbose: 'false', waitTime: '', waitUnit: 'sec'
+         openshiftBuild apiURL: '', authToken: '', bldCfg: 'assets', buildName: '', checkForTriggeredDeployments: 'false', commitID: '', namespace: '', showBuildLogs: 'true', verbose: 'false', waitTime: '', waitUnit: 'sec'
   }
   stage('validate') {
       echo "Testing..."
@@ -13,6 +13,6 @@ stage('approve') {
 }
 node('master') {
     stage('deploy') {
-        openshiftDeploy apiURL: '', authToken: '', depCfg: 'assets', namespace: 'oldshea', verbose: 'false', waitTime: '', waitUnit: 'sec'
+        echo "Deploying..."
     }
 }
