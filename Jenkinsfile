@@ -8,13 +8,14 @@ node {
   stage('test') {
       echo "Insert testing here..."
   }
+  stage('deploy-test') {
+      input "Deploy to test?"
+      openshiftTag destStream: 'assets', verbose: 'true', destTag: 'test', srcStream: 'assets', srcTag: '$BUILD_ID'
+  }
+  stage('deploy-prod') {
+      input "Deploy to prod?"
+      openshiftTag destStream: 'assets', verbose: 'true', destTag: 'test', srcStream: 'assets', srcTag: '$BUILD_ID'
+  }
 }
-stage('deploy-test') {
-    input "Deploy to test?"
-    openshiftTag destStream: 'assets', verbose: 'true', destTag: 'test', srcStream: 'assets', srcTag: '$BUILD_ID'
-}
-stage('deploy-prod') {
-    input "Deploy to prod?"
-    openshiftTag destStream: 'assets', verbose: 'true', destTag: 'test', srcStream: 'assets', srcTag: '$BUILD_ID'
-}
+
 
