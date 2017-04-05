@@ -2,7 +2,8 @@ node('master') {
   stage('build') {
          echo "Building..."
 
-         openshiftBuild apiURL: '', authToken: '', bldCfg: 'assets', buildName: '', checkForTriggeredDeployments: 'false', commitID: '', namespace: '', showBuildLogs: 'true', verbose: 'false', waitTime: '', waitUnit: 'sec'
+         def buildResult = openshiftBuild apiURL: '', authToken: '', bldCfg: 'assets', buildName: '', checkForTriggeredDeployments: 'false', commitID: '', namespace: '', showBuildLogs: 'true', verbose: 'false', waitTime: '', waitUnit: 'sec'
+         echo "Build Result: " + buildResult
   }
   stage('validate') {
       echo "Testing..."
