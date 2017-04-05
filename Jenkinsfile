@@ -14,7 +14,7 @@ node {
   }
   stage('deploy-prod') {
       input "Deploy to prod?"
-      openshiftTag destStream: 'assets', verbose: 'true', destTag: 'test', srcStream: 'assets', srcTag: '$BUILD_ID'
+      openshiftTag destStream: 'assets', verbose: 'true', destTag: 'prod', srcStream: 'assets', srcTag: '$BUILD_ID'
   }
 }
 
