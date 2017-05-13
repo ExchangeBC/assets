@@ -6,7 +6,6 @@ node {
          openshiftTag destStream: 'assets', verbose: 'true', destTag: 'dev', srcStream: 'assets', srcTag: 'latest'
   }
   stage('environment') {
-      sh 'env'
       echo "${env}"
   }
   stage('test') {
