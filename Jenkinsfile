@@ -5,7 +5,12 @@ node {
          openshiftTag destStream: 'assets', verbose: 'true', destTag: '$BUILD_ID', srcStream: 'assets', srcTag: 'latest'
          openshiftTag destStream: 'assets', verbose: 'true', destTag: 'dev', srcStream: 'assets', srcTag: 'latest'
   }
+  stage('environment') {
+      sh 'env'
+      echo "${env}"
+  }
   stage('test') {
+   
       echo "Insert testing here..."
   }
   stage('deploy-test') {
