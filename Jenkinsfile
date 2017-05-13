@@ -7,11 +7,15 @@ node {
   }
   stage('environment') {
     node('maven') {
-      sh 'oc env dc/sonarqube --list' 
+      SONARQUBE_PWD = sh (
+      script: 'oc env dc/sonarqube --list | awk  -F  "=" \'/SONARQUBE_ADMINPW/{print $2}\'',
+      returnStdout: true
+       ).trim()
+       echo "SONARQUBE_PWD: ${SONARQUBE_PWD}"
     }
   }
   stage('test') {
-   
+
       echo "Insert testing here..."
   }
   stage('deploy-test') {
