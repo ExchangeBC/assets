@@ -6,7 +6,9 @@ node {
          openshiftTag destStream: 'assets', verbose: 'true', destTag: 'dev', srcStream: 'assets', srcTag: 'latest'
   }
   stage('environment') {
-      echo "${env.keys}"
+    node('maven') {
+      sh 'oc env dc/sonarqube --list' 
+    }
   }
   stage('test') {
    
