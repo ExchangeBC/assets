@@ -10,5 +10,5 @@
 
 <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." style="border-width:0" src="images/badges/delivery.svg" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported."> Built out and in alpha, beta or production, and can actually be used in some manner. Suggests some level of permanency and support for the product.
 
-<img alt="No longer being used and/or supported." style="border-width:0" src="images/badges/retired.svg" title="o longer being used and/or supported."> No longer being used or supported, recommend using or transitioning to alternatives.
+<img alt="No longer being used and/or supported." style="border-width:0" src="images/badges/retired.svg" title="o longer being used and/or supported."> No longer being used or supported, recommend not using or transitioning to an alternative option.
 
