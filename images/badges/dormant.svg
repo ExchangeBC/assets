@@ -7,14 +7,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="179"
+   width="163"
    height="20"
    version="1.1"
-   id="svg3951"
+   id="svg201"
    sodipodi:docname="dormant.svg"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06">
   <metadata
-     id="metadata3957">
+     id="metadata207">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -26,7 +26,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs3955" />
+     id="defs205" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -36,99 +36,82 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1097"
-     inkscape:window-height="590"
-     id="namedview3953"
+     inkscape:window-width="955"
+     inkscape:window-height="449"
+     id="namedview203"
      showgrid="false"
-     inkscape:zoom="1.8100559"
-     inkscape:cx="76.240741"
+     inkscape:zoom="1.9877301"
+     inkscape:cx="95.58642"
      inkscape:cy="10"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-x="246"
+     inkscape:window-y="173"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg3951" />
+     inkscape:current-layer="svg201" />
   <linearGradient
      id="b"
      x2="0"
-     y2="59.833101"
-     gradientTransform="scale(2.9916551,0.33426314)"
-     x1="0"
-     y1="0"
-     gradientUnits="userSpaceOnUse">
+     y2="100%">
     <stop
        offset="0"
        stop-color="#bbb"
        stop-opacity=".1"
-       id="stop3925" />
+       id="stop175" />
     <stop
        offset="1"
        stop-opacity=".1"
-       id="stop3927" />
+       id="stop177" />
   </linearGradient>
   <mask
      id="a">
     <rect
-       width="179"
+       width="163"
        height="20"
        rx="3"
        fill="#fff"
-       id="rect3930" />
+       id="rect180" />
   </mask>
   <g
      mask="url(#a)"
-     id="g3939"
-     transform="translate(0,0.55246875)">
+     id="g189">
     <path
-       d="M 0,0 H 105 V 20 H 0 Z"
-       id="path3933"
-       inkscape:connector-curvature="0"
-       style="fill:#555555" />
+       fill="#555"
+       d="M0 0h105v20H0z"
+       id="path183" />
     <path
-       d="m 105,0 h 74 v 20 h -74 z"
-       id="path3935"
-       inkscape:connector-curvature="0"
+       fill="#97CA00"
+       d="M105 0h58v20h-58z"
+       id="path185"
        style="fill:#ff7f2a" />
     <path
-       d="M 0,0 H 179 V 20 H 0 Z"
-       id="path3937"
-       style="fill:url(#b)"
-       inkscape:connector-curvature="0" />
+       fill="url(#b)"
+       d="M0 0h163v20H0z"
+       id="path187" />
   </g>
   <g
      fill="#fff"
      text-anchor="middle"
      font-family="DejaVu Sans,Verdana,Geneva,sans-serif"
      font-size="11"
-     id="g3949">
+     id="g199">
     <text
        x="53.5"
        y="15"
        fill="#010101"
        fill-opacity=".3"
-       id="text3941">BCDevExchange</text>
+       id="text191">BCDevExchange</text>
     <text
        x="53.5"
        y="14"
-       id="text3943">BCDevExchange</text>
+       id="text193">BCDevExchange</text>
     <text
-       x="141"
+       x="133"
        y="15"
        fill="#010101"
        fill-opacity=".3"
-       id="text3945"
-       style="-inkscape-font-specification:'DejaVu Sans, Verdana, Geneva, sans-serif, Normal';font-family:'DejaVu Sans', Verdana, Geneva, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:11px;text-anchor:middle;text-align:center;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;">
-      <tspan
-         sodipodi:role="line"
-         id="tspan3978">Dormant</tspan>
-    </text>
+       id="text195">Dormant</text>
     <text
-       x="141"
+       x="133"
        y="14"
-       id="text3947"
-       style="-inkscape-font-specification:'DejaVu Sans, Verdana, Geneva, sans-serif, Normal';font-family:'DejaVu Sans', Verdana, Geneva, sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:11px;text-anchor:middle;text-align:center;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;">
-      <tspan
-         sodipodi:role="line"
-         id="tspan3980">Dormant</tspan>
-    </text>
+       id="text197">Dormant</text>
   </g>
 </svg>
