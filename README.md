@@ -1,1 +1,13 @@
 # assets
+
+## Project State Badges
+
+<a rel="Inspiration" ><img alt="An idea being explored and shaped. Open for discussion, but may never go anywhere." style="border-width:0" src="https://assets.bcdevexchange.org/images/badges/inspiration.svg" title="An idea being explored and shaped. Open for discussion, but may never go anywhere." /></a> – Used to identify a concept or idea that is being explored. In this state, there are no considerations towards IP, money / funding, or licences, and is just an investigation of a topic or idea, often in an open and collaborative way. 
+
+<a rel="Dormant" ><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." style="border-width:0" src="https://assets.bcdevexchange.org/images/badges/dormant.svg" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." /></a> – Used to identify something that has been built out and in alpha, beta, or production, and can actually be used in some manner. Suggests some level of permanency and support for the product.
+
+<a rel="Exploration" ><img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." style="border-width:0" src="https://assets.bcdevexchange.org/images/badges/exploration.svg" title="Being designed and built, but in the lab. May change, disappear, or be buggy." /></a> – Used to identify something that is in the process of being built, and can be interacted with in some way, though usually in the context of a lab, trial, or test. May have disclaimers regarding use, and may be temporary in nature. 
+
+<a rel="Delivery" ><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." style="border-width:0" src="https://assets.bcdevexchange.org/images/badges/delivery.svg" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." /></a> – Used to identify something that has been built out and in alpha, beta, or production, and can actually be used in some manner. Suggests some level of permanency and support for the product.
+
+<a rel="Retired" ><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." style="border-width:0" src="https://assets.bcdevexchange.org/images/badges/retired.svg" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." /></a> – Used to identify something that has been built out and in alpha, beta, or production, and can actually be used in some manner. Suggests some level of permanency and support for the product.
